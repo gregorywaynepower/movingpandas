@@ -1,0 +1,40 @@
+[project]
+authors = ["Anita Graser <anitagraser@gmx.at>", "Gregory Power <31050507+gregorywaynepower@users.noreply.github.com>"]
+channels = ["conda-forge"]
+description = "Movement trajectory classes and functions built on top of GeoPandas"
+name = "movingpandas-dev"
+platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+license = "BSD 3-Clause License"
+license-file = "LICENSE.txt"
+readme = "README.md"
+homepage = "https://movingpandas.org/"
+repository = "https://github.com/movingpandas/movingpandas"
+documentation = "https://movingpandas.readthedocs.io/"
+version = "0.21.3"
+
+[tasks]
+
+[dependencies]
+python = "3.10.*"
+black = "*"
+cartopy = "*"
+codecov = "*"
+colorcet = "*"
+cython = "*"
+hvplot = "*"
+flake8 = "*"
+geopandas = "*"
+geoviews = "*"
+geopy = "*"
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+panel = "*"
+pre-commit = "*"
+pytest = "*"
+pytest-cov = "*"
+rasterio = "*"
+scikit-learn = "*"
+seaborn = "*"
+shapely = "*"
+stonesoup = "*"

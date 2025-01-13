@@ -123,3 +123,7 @@ tutorials/experiments/
 tutorials/data/demodata_gulls.csv
 temp.gpkg
 /docs/source/api/api
+
+# pixi environments
+.pixi
+*.egg-info
